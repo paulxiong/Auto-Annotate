@@ -11,6 +11,7 @@ from mrcnn.config import Config
 from mrcnn.model import MaskRCNN
 import matplotlib.pyplot as plt
 import tensorflow as tf
+from mrcnn import utils
 tf.logging.set_verbosity(tf.logging.ERROR)
 
 
